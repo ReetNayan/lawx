@@ -1,0 +1,20 @@
+-- prototype beta v1
+
+- every execution is a new conversation
+
+- every conversation can be attached with one or more files
+
+
+set up api key
+        + api key is encrypted with a salt
+
+-s : setup flag, overwrites all existing data
+
+-f : attach files to the application
+
+Command-- lawx -s api_key // set up api throw error if fields arent provided properly
+
+Command-- lawx -f <file-1> <file-2> <link-to-file_1>.... <...> //
+
+
+
